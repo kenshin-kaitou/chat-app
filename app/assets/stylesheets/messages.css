@@ -1,0 +1,142 @@
+/* チャットページ全体 */
+.wrapper{
+	display: flex;
+}
+/* 左側 サイドバー*/
+.side_bar{
+	background-color: #253141;
+	width: 300px;
+	height: 100vh;
+}
+/* 左ヘッダー*/
+.side_header{
+	height: 100px;
+	padding: 0 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+/* 左上ユーザーネーム */
+.user_name{
+	font-size: 16px;
+	color: #fafafa;
+}
+/* 左上 チャットルーム新規作成 */
+.room_new{
+	font-size: 10px;
+	padding: 14px;
+	border: 1px solid lightblue;
+	color: deepskyblue;
+}
+/* 左側 ルーム一覧 */
+.rooms{
+	background-color: #2f3e51;
+	height: calc(100vh - 100px);
+	padding: 0 20px;
+}
+/* 左下 ルーム名 */
+.room {
+	padding:20px 0 40px 0 ;
+}
+.room a{
+	color: white;
+}	
+/* 右側 主にチャット*/
+.main_chat{
+	background-color: #ffffff;
+	width: calc(100vw - 300px);
+}
+/* 右側 ヘッダー*/
+.main_header{
+	background-color: #ffffff;
+	height: 100px;
+	padding: 0 40px;
+	display: flex;
+	justify-content: space-between;
+}
+/* チャットルーム概要 */
+.current_room_name{
+	font-size: 24px;
+	color: #333;
+	margin-top: 36px;
+}
+/* チャット終了ボタン */
+.chat_end{
+	margin-top: 40px;
+}
+.chat_end a{
+	padding: 20px;
+	border: 1px solid darkred;
+	color: darkred;
+}
+/* メッセージ一覧 */
+.messages{
+	background-color: #fafafa;
+	height: calc(100vh - 100px - 90px);
+	padding: 46px 40px 0;
+	overflow: scroll;
+}
+/*メッセージ単体 */
+.message{
+	padding: 10px 0 40px;
+}
+.message_info{
+	display: flex;
+}
+.message_user{
+	font-size: 16px;
+	margin-right: 10px;
+	color: #434a54;
+}
+.message_created_at{
+	color: #999;
+	font-size: 12px;
+}
+.message_text{
+	font-size: 14px;
+	color: #434a54;
+}
+/* メッセージ送信フォーム */
+.form {
+  background-color: #DDDDDD;
+  height: 90px;
+  padding: 20px 40px;
+  display: flex;
+}
+
+.form-input {
+  background-color: white;
+  display: flex;
+  width: 100%;
+}
+
+.form-message {
+  border: none;
+  height: 50px;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.form-submit {
+  background-color: #38AEF0;
+  border: none;
+  color: white;
+  font-size: 16px;
+  height: 50px;
+  margin-left: 15px;
+  padding: 0 20px;
+}
+
+.form-image {
+  font-size: 12px;
+  background-color: lightblue;
+  color: white;
+  padding: 12px;
+  width: 60px;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
