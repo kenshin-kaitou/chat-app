@@ -20,6 +20,7 @@
 .user_name{
 	font-size: 16px;
 	color: #fafafa;
+	text-decoration: none;
 }
 /* 左上 チャットルーム新規作成 */
 .room_new{
